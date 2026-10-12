@@ -4,6 +4,6 @@
   NUNCA uses la clave service_role ni una clave secreta en el navegador.
 */
 window.OBJETIVO_CONFIG = {
-  SUPABASE_URL: "https://TU-PROYECTO.supabase.co",
-  SUPABASE_ANON_KEY: "TU_CLAVE_PUBLICABLE"
+  SUPABASE_URL: "https://vboalrskslobxovyyezr.supabase.co",
+  SUPABASE_ANON_KEY: "sb_publishable_7GYsdUDwD3BE0RpswQFf6w_ELoQcwyP"
 };
