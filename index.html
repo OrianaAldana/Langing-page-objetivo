@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Objetivo te ayuda a convertir tus metas personales en planes claros y alcanzables. Inscríbete a la beta.">
+  <title>Objetivo | Convierte tus metas en planes alcanzables</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="Objetivo, inicio">
+        <span class="brand-mark" aria-hidden="true">◎</span><span>objetivo</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#planes">Planes</a>
+        <a class="nav-cta" href="#beta">Probar la beta <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> TU PLAN, A TU RITMO</span>
+          <h1>Convierte tus metas en <span>planes alcanzables.</span></h1>
+          <p class="hero-description">Organiza tu dinero, tus tareas y tus fechas en un solo lugar. Da el siguiente paso hacia eso que quieres conseguir.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#beta">Quiero probar la beta <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="#como-funciona">Descubre cómo funciona <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="trust-note"><span class="avatar-stack" aria-hidden="true"><i>O</i><i>+</i><i>✓</i></span><span>Estamos preparando la primera versión.<br><strong>Únete y ayúdanos a mejorarla.</strong></span></div>
+        </div>
+        <div class="hero-visual" aria-label="Vista ilustrativa del panel de Objetivo">
+          <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+          <div class="dashboard-card">
+            <div class="dash-top"><div><span class="tiny-label">MI OBJETIVO</span><h3>Comprar una laptop</h3></div><span class="status-pill">En progreso</span></div>
+            <div class="amount-row"><div><span class="muted-label">Meta estimada</span><strong>Bs 4.000</strong></div><div class="amount-right"><span class="muted-label">Ahorrado</span><strong>Bs 1.500</strong></div></div>
+            <div class="progress-meta"><span>Tu progreso</span><strong>38%</strong></div><div class="progress-track"><span></span></div>
+            <div class="dash-divider"></div>
+            <div class="mini-task"><span class="task-check">✓</span><span><strong>Comparar precios</strong><small>Primer paso completado</small></span><span class="task-done">Listo</span></div>
+            <div class="mini-task"><span class="task-empty"></span><span><strong>Definir ahorro mensual</strong><small>Próxima acción</small></span><span class="task-next">Pendiente</span></div>
+            <div class="dash-bottom"><span>✦ Plan personal</span><span>Actualiza cuando quieras</span></div>
+          </div>
+          <div class="floating-card float-savings"><span class="float-icon">↗</span><div><small>Te faltan</small><strong>Bs 2.500</strong></div></div>
+          <div class="floating-card float-date"><span class="calendar-icon">▦</span><div><small>Un paso a la vez</small><strong>Vas avanzando</strong></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="proof-strip">
+      <div class="container proof-grid">
+        <div><span class="proof-icon">◎</span><span><strong>Metas claras</strong><small>Define qué quieres lograr</small></span></div>
+        <div><span class="proof-icon">▤</span><span><strong>Pasos concretos</strong><small>Organiza cómo conseguirlo</small></span></div>
+        <div><span class="proof-icon">↗</span><span><strong>Progreso visible</strong><small>Revisa tu avance</small></span></div>
+      </div>
+    </section>
+
+    <section class="section problem-section" id="como-funciona">
+      <div class="container section-grid">
+        <div>
+          <span class="eyebrow">MENOS DESORDEN, MÁS CLARIDAD</span>
+          <h2>Una meta no tiene que sentirse como mil cosas a la vez.</h2>
+        </div>
+        <div class="section-intro">
+          <p>Quizá quieres comprar algo importante, viajar, pagar un curso o empezar un proyecto. A veces cuesta saber cuánto falta, qué hacer primero y cómo mantener el seguimiento.</p>
+          <p class="subtle-note">Objetivo es una propuesta en desarrollo. Estamos buscando personas que nos ayuden a validar si esta forma de planificar realmente les sirve.</p>
+        </div>
+      </div>
+      <div class="container feature-grid" id="beneficios">
+        <article class="feature-card"><span class="feature-icon lavender">⌁</span><h3>Planifica tu meta</h3><p>Define lo que quieres conseguir, el costo estimado y la fecha que tienes en mente.</p><span class="feature-number">01</span></article>
+        <article class="feature-card"><span class="feature-icon mint">▤</span><h3>Organiza tus pasos</h3><p>Divide tu objetivo en tareas pequeñas para saber por dónde empezar y qué sigue.</p><span class="feature-number">02</span></article>
+        <article class="feature-card"><span class="feature-icon peach">↗</span><h3>Visualiza tu avance</h3><p>Consulta lo que llevas, lo que te falta y ajusta el plan cuando cambien tus circunstancias.</p><span class="feature-number">03</span></article>
+      </div>
+    </section>
+
+    <section class="section how-section">
+      <div class="container">
+        <div class="section-heading centered"><span class="eyebrow">ASÍ DE SENCILLO</span><h2>De “algún día” a un plan.</h2><p>Un recorrido pensado para ayudarte a pasar de la intención a los siguientes pasos.</p></div>
+        <div class="steps-grid">
+          <div class="step"><span class="step-number">1</span><h3>Define tu objetivo</h3><p>Escribe qué quieres lograr y cuándo te gustaría hacerlo.</p></div>
+          <div class="step-connector" aria-hidden="true">→</div>
+          <div class="step"><span class="step-number">2</span><h3>Arma tu plan</h3><p>Organiza cantidades, fechas y acciones importantes.</p></div>
+          <div class="step-connector" aria-hidden="true">→</div>
+          <div class="step"><span class="step-number">3</span><h3>Revisa tu progreso</h3><p>Observa tus avances y adapta el plan a tu realidad.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section plans-section" id="planes">
+      <div class="container">
+        <div class="section-heading centered"><span class="eyebrow">MODELO PROPUESTO</span><h2>Empieza a tu manera.</h2><p>Estos planes son una propuesta inicial y podrían cambiar después de probarla con usuarios.</p></div>
+        <div class="plans-grid">
+          <article class="plan-card"><span class="plan-name">Free</span><h3>Para comenzar</h3><p class="plan-price">Bs 0 <small>/ siempre</small></p><ul><li>Funciones básicas</li><li>Seguimiento de una meta</li><li>Vista general del progreso</li></ul><a href="#beta" class="button button-outline">Probar gratis</a></article>
+          <article class="plan-card plan-featured"><span class="plan-badge">Plan propuesto</span><span class="plan-name">Plus</span><h3>Para organizar más</h3><p class="plan-price">Bs 25 <small>/ mes</small></p><ul><li>Objetivos ilimitados</li><li>Simulaciones y alertas</li><li>Análisis de progreso</li></ul><a href="#beta" class="button button-primary">Me interesa</a></article>
+          <article class="plan-card"><span class="plan-name">Pro</span><h3>Para planificar en detalle</h3><p class="plan-price">Bs 45 <small>/ mes</small></p><ul><li>Planificación avanzada</li><li>Objetivos compartidos</li><li>Reportes de avance</li></ul><a href="#beta" class="button button-outline">Me interesa</a></article>
+        </div>
+        <p class="pricing-disclaimer">No se realizan cobros en esta etapa. Los precios son hipótesis que queremos validar.</p>
+      </div>
+    </section>
+
+    <section class="beta-section section" id="beta">
+      <div class="container beta-grid">
+        <div class="beta-copy">
+          <span class="eyebrow eyebrow-light">PRIMEROS PASOS</span>
+          <h2>Ayúdanos a construir una forma más clara de alcanzar tus metas.</h2>
+          <p>Inscríbete para mostrar tu interés en la beta de Objetivo. Tus respuestas nos ayudarán a entender qué necesitas y qué deberíamos mejorar.</p>
+          <div class="beta-points"><span>✓ Sin cobros ni compromiso</span><span>✓ Tus respuestas se usarán para evaluar la propuesta</span><span>✓ Puedes compartir tus necesidades</span></div>
+        </div>
+        <div class="form-card">
+          <div class="form-heading"><span class="form-mark">◎</span><div><h3>Quiero probar Objetivo</h3><p>Completa este formulario de interés.</p></div></div>
+          <form id="betaForm" novalidate>
+            <div class="form-row">
+              <div class="field"><label for="nombre">Nombre *</label><input id="nombre" name="nombre" type="text" autocomplete="name" maxlength="100" placeholder="¿Cómo te llamas?" required><small class="field-error" id="nombreError"></small></div>
+              <div class="field"><label for="perfil">Perfil *</label><select id="perfil" name="perfil" required><option value="">Selecciona una opción</option><option>Estudiante</option><option>Profesional</option><option>Emprendedor/a</option><option>Otro</option></select><small class="field-error" id="perfilError"></small></div>
+            </div>
+            <div class="field"><label for="correo">Correo electrónico *</label><input id="correo" name="correo" type="email" autocomplete="email" maxlength="254" placeholder="tu@correo.com" required><small class="field-error" id="correoError"></small></div>
+            <div class="field"><label for="necesidad">¿Qué meta te gustaría organizar? *</label><textarea id="necesidad" name="necesidad" rows="3" maxlength="600" placeholder="Ej.: ahorrar para una laptop, un viaje o un curso..." required></textarea><small class="field-error" id="necesidadError"></small></div>
+            <fieldset class="interest-field"><legend>¿Qué función te interesa más? *</legend><div class="radio-list"><label><input type="radio" name="interes" value="Planificar metas" required> Planificar mis metas</label><label><input type="radio" name="interes" value="Calcular ahorro"> Calcular cuánto ahorrar</label><label><input type="radio" name="interes" value="Organizar tareas"> Organizar tareas y fechas</label><label><input type="radio" name="interes" value="Ver progreso"> Ver mi progreso</label></div><small class="field-error" id="interesError"></small></fieldset>
+            <label class="consent"><input id="consentimiento" type="checkbox" required><span>Autorizo que mis datos se utilicen para gestionar mi inscripción a la beta y evaluar esta propuesta. *</span></label>
+            <small class="field-error" id="consentimientoError"></small>
+            <button class="button button-primary submit-button" id="submitButton" type="submit">Enviar inscripción <span aria-hidden="true">→</span></button>
+            <p class="form-message" id="formMessage" role="status" aria-live="polite"></p>
+            <p class="privacy-note">No introduzcas información bancaria ni datos sensibles. Consulta la finalidad de este formulario antes de enviar tus datos.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="#inicio"><span class="brand-mark">◎</span><span>objetivo</span></a><p>Pequeños pasos. Metas más claras.</p><span>© <span id="year"></span> Objetivo · Prototipo académico</span></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
